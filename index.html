@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,69 +8,117 @@
     <title>User Card</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="topnavbarbg">
         <div class="topnavbar">
             <h1>Profile</h1>
-        <ul>
-            <li>home</li>
-            <li>My Profile</li>
-            <li class="connection">Find Connection</li>
-        </ul>
-        <button>Sign Out</button>      
+            <ul>
+                <li>home</li>
+                <li>My Profile</li>
+                <li class="connection">Find Connection</li>
+            </ul>
+            <button>Sign Out</button>
         </div>
     </div>
     <div class="container">
         <div class="container1">
-    <div class="topleftbox">    
-        <div class="navbar"> 
-        <div class="picture">
-        <img src="Icons/icons/user-circle.png" alt="user-circle">
-        </div></div>
-        <div> <h1>Rose Zahra Mohammadi</h1></div>
-        <div class="location"> <h2> <img src="Icons/icons/map-marker.png" alt="map"> Boston</h2>
-        </div>
-        <div> <h3>Developer | Engineer | Problem Solver
-        </h3>
-        <h3>Master of shadows and the Internet!</h3></div>
-        <div class="settings">
-        
-        <h3><img src="Icons/icons/gear.png" alt="settings"> <a href="edit profile"> edit profile</a> </h3></div>
-    
-        </div>
-    <div class="middleleftbox"> 
-        <div class="title"> <h3>Education</h3></div>
-        <h3>Coding Dojo - Full Stack Bootcamp</h3>
-        <br>
-        <div class="period"><h3> Dec 2019 - Mar 2020</h3></div>
-        <br>
-        <h3>Triple black belt in Python, MERN, and C#...</h3>    
-    </div>
-</div>
-<div class="container2">
-    <div class="toprightbox">
-        <div class="title"> <button>2</button>
-            <h3>Connection Requests</h3>
-            <br>
-            <h4><img src="images/todd-s.jpg" alt=""> Todd E <img src="icons/accept-circle.png" alt=""> <img src="icons/close-circle.png" alt=""></h4>
-            <h4>  <img src="images/phil-s.jpg" alt="phil">Phil K <img src="icons/accept-circle.png" alt="">
-            <img src="icons/close-circle.png" alt=""></h4></div>
-    </div>
-    <div class="middlerightbox">
-        <div class="title"> <button> 500+</button>
-            <h3>Your Connections</h3>
-            <br>
-            <h4> <img src="images/adrien-s.jpg" alt=""> drien D</h4>
-            <h4><img src="images/anne-s.jpg" alt=""> Anne J</h4>
-            <h4><img src="images/alayne-s.jpg" alt=""> Alayne T</h4>
-            <h4><img src="images/arry-s.jpg" alt="alayne y"> Arry Y</h4>
-    </div>
-    <div class=bottomrightbox> 
-        <a href="View More"> View More</a>
-    </div>
-    </div>
+            <div class="topleftbox">
+                <div class="navbar">
+                    <div class="picture">
+                        <img src="Icons/icons/user-circle.png" alt="user-circle">
+                    </div>
+                </div>
+                <div>
+                    <h1>Rose Zahra Mohammadi</h1>
+                </div>
+                <div class="location">
+                    <h2> <img src="Icons/icons/map-marker.png" alt="map"> Boston</h2>
+                </div>
+                <div>
+                    <h3>Developer | Engineer | Problem Solver
+                    </h3>
+                    <h3>Master of shadows and the Internet!</h3>
+                </div>
+                <div class="settings">
 
-    </div>
+                    <h3><img src="Icons/icons/gear.png" alt="settings"> <a href="edit profile"> edit profile</a> </h3>
+                </div>
+
+            </div>
+            <div class="middleleftbox">
+                <div class="title">
+                    <h3>Education</h3>
+                </div>
+                <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                <br>
+                <div class="period">
+                    <h3> Dec 2019 - Mar 2020</h3>
+                </div>
+                <br>
+                <h3>Triple black belt in Python, MERN, and C#...</h3>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="toprightbox">
+                <div class="title"> <button>2</button>
+                    <h3>Connection Requests</h3>
+                    <div class="connections">
+                        <div class="flex">
+                            <img src="images/todd-s.jpg" alt=""> 
+                            <p>Todd E </p>
+                        </div>
+                        <div class="flex">
+                            <img src="icons/accept-circle.png" alt="check"> 
+                            <img
+                            src="icons/close-circle.png" alt="cross">
+                        </div>
+                    </div>
+                    <div class="connections">
+                        <div class="flex">
+                            <img src="images/phil-s.jpg" alt="phil">
+                            <p>Phil K</p>
+                        </div>
+                        <div class="flex">
+                            <img src="icons/accept-circle.png" alt="check">
+                            <img src="icons/close-circle.png" alt="cross">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="middlerightbox">
+                <div class="title"> <button> 500+</button>
+                    <h3>Your Connections</h3>
+                    <br>
+                </div>
+                <div class="connectionlist">
+                    <div class="flex">
+                        <img src="images/adrien-s.jpg" alt="Adrien D">
+                        <p>Adrien D</p>
+                    </div> 
+                    
+                    <div class="flex">
+                        <img src="images/anne-s.jpg" alt="Anne J">
+                        <p> Anne J</p></div>
+                    
+                    <div class="flex">
+                        <img src="images/alayne-s.jpg" alt="Alayne T">
+                        <p>Alayne T</p>
+                    </div>
+                   
+                    <div class="flex">
+                        <img src="images/arry-s.jpg" alt="Arry y">
+                        <p> Arry Y</p>
+                    </div>
+                   
+                </div>
+                <div class=bottomrightbox>
+                    <a href="View More"> View More</a>
+                </div>
+            </div>
+
+        </div>
     </div>
 </body>
+
 </html>

@@ -15,7 +15,7 @@
     color: white;
     align-items: center;
     width: 1300px;
-    margin-left: 170px;
+    /* margin-left: 170px; */
 }
 .topnavbar ul {
     list-style: none;
@@ -42,6 +42,7 @@
     color: white;
     display: inline;
     margin-bottom: 60px;
+    margin-left: 0px;
 }
 
 .navright button {
@@ -122,6 +123,7 @@ h3 {
     background-color: white;
     height: 300px;
     border: 5px solid silver;
+    border-bottom: none;
 }
 
 .title {
@@ -148,20 +150,32 @@ h3 {
 .toprightbox {
     background-color: white;
     border: 5px solid silver;
-    height: 200px;
+    height: 250px;
     margin-bottom: 20px;
 
 }
 
-.title h4 {
+.connections {
     color: black;
     font-size: 30px;
     margin-top: 18px;
+    display: flex;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex p {
+    font-size: 40px;
+}
+
+.flex img {
+    padding: 10px;
 }
 
 .middlerightbox {
     background-color: white;
-    height:400px;
     border: 5px solid silver;
 }
 
@@ -187,17 +201,24 @@ h3 {
     flex: 3;
 }
 
+.connectionlist img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
 .title img {
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    padding-left: 20px;
+    margin-right: 5px;
 }
 .bottomrightbox {
     background-color: white;
+    padding-top: 5px;
     height:30px;
-    border: 5px solid silver;
-    position: relative;
-    top:295px;
+    border-top: 5px solid silver;
     padding-left: 20px;
+    font-size: 25px;
 }
