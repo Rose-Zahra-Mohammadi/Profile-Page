@@ -1,0 +1,203 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0px auto;
+    padding: 0px;
+}
+.topnavbarbg {
+    height: 80px;
+    background-color: black;
+
+}
+.topnavbar {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 1300px;
+    margin-left: 170px;
+}
+.topnavbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0px;
+}
+
+.topnavbar li {
+    padding-right: 50px;
+    color: silver;
+    font-size: 30px;
+}
+
+.topnavbar button {
+    background-color: rgb(77, 184, 227);
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    margin-right: 0px;
+}
+
+.topnavbar h1 {
+    color: white;
+    display: inline;
+    margin-bottom: 60px;
+}
+
+.navright button {
+background-color: rgb(77, 184, 227);
+font-size: 30px;
+color: white;
+padding: 8px;
+}
+.navbar {
+    background-color: rgb(77, 184, 227);
+    height: 100px;
+    width: 800px;
+}
+.navright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navmiddle1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: silver;
+    /* position: relative;
+    bottom: 255px; */
+}
+.navmiddle2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.navmiddle3 {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    color: silver;
+}
+h1{ 
+    font-size:50px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.picture img{
+    top: 50px;
+    width: 100px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.settings img {
+    top: 5px;
+    width: 20px;
+    /* position: relative; */
+    
+}
+
+.location img {
+    width: 20px;
+    margin-left: 30px;
+}
+
+h3 {
+    margin-left: 20px;
+    margin-left: 30px;
+}
+
+.topleftbox {
+    background-color: white;
+    height: 350px;
+    border: 5px solid silver;
+    margin-bottom: 20px;
+}
+
+.middleleftbox {
+    background-color: white;
+    height: 300px;
+    border: 5px solid silver;
+}
+
+.title {
+    font-size: 20px;
+    background-color: black;
+    height: 20px;
+    color: silver;
+    margin-bottom: 30px;
+    padding-bottom: 35px;
+    padding-top: 15px;
+    align-items: center;
+    padding-left: 10px;
+}
+.title button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+
+.title h3 {
+    display: inline;
+}
+.toprightbox {
+    background-color: white;
+    border: 5px solid silver;
+    height: 200px;
+    margin-bottom: 20px;
+
+}
+
+.title h4 {
+    color: black;
+    font-size: 30px;
+    margin-top: 18px;
+}
+
+.middlerightbox {
+    background-color: white;
+    height:400px;
+    border: 5px solid silver;
+}
+
+.middleleftbox h3 {
+    font-size: 29px;
+}
+
+.period {
+    color: gray;
+}
+.container {
+    display: flex;
+    width: 1300px;
+    margin-top: 10px;
+}
+
+.container1 {
+    flex: 3;
+    margin-right: 60px;
+}
+
+.container2 {
+    flex: 3;
+}
+
+.title img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding-left: 20px;
+}
+.bottomrightbox {
+    background-color: white;
+    height:30px;
+    border: 5px solid silver;
+    position: relative;
+    top:295px;
+    padding-left: 20px;
+}
